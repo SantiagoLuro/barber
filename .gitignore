@@ -1,0 +1,8 @@
+node_modules
+.vercel
+dist
+
+# Secrets — nunca subir al repo
+.env
+server/.env
+*.db

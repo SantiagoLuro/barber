@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm install *)",
+      "Bash(npm install *)",
+      "Bash(node -e \"require\\('./index.js'\\)\")",
+      "Bash(curl -s http://localhost:3001/api/config)",
+      "Bash(curl -s http://localhost:3001/api/blocked-dates)",
+      "Bash(git *)",
+      "Read(//c/Users/Usuario/Desktop/Santiago/PROYECTOS/OLD/PORTFOLIO/PELUQUERIA/**)",
+      "Bash(node server/index.js)",
+      "Bash(npm run *)",
+      "Bash(npx vite *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(grep -n \"const services\\\\|const SERVICES\\\\|price.*\\\\$\\\\|price.*\\\\¥\" \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\Santiago\\\\PROYECTOS\\\\OLD\\\\PORTFOLIO\\\\PELUQUERIA\\\\src\\\\App.jsx\")",
+      "Bash(not exist *)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
